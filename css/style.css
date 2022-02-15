@@ -132,8 +132,8 @@ body{
  }
 
  /* Topic-tag section */
- 
-.topic-tag{
+
+.topic-tag {
     display: inline-block;
     height: 1.8rem;
     color: var(--global-color);
@@ -142,12 +142,27 @@ body{
     vertical-align: middle;
     font-size: 0.7rem;
     padding: 0.4rem;
-    margin: 0.4rem 0.1rem;
+    margin: 0.4rem;
 }
 
-.editorial{
+.editorial {
     width: 4.5rem;
     background-color: var(--button-editorial-color);
+}
+
+.q1-goals {
+    width: 5rem;
+    background-color: var(--button-q1-goal-color);
+}
+
+.recruiting {
+    width: 5rem;
+    background-color: var(--button-recruiting-color);
+}
+
+.mobile{
+    width: 4rem;
+    background-color: var(--button-mobile-color);
 }
 
 /************ /#Site-Main ************/
