@@ -1,11 +1,51 @@
-/* 
-    colors:
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-    background: #14AAF5;    blue
-    background: #AB5DE6;    purple
-    background: #2CC6AB;    dark-green
-    background: #FF9B00;    orange
-    background: #EC4A9D;    pink
-    background: #A3D116;    light-green
-    
-*/
+/* Utilities */
+
+:root {
+    --global-color: #FFFFFF;
+    --bg-body-color: #F6F8F9;
+    --add-task-color: #14AAF5;
+    --add-section-text-color: #CFD5D9;
+    --title-section-color: #4A4F58;
+    --button-editorial-color: #09A9ED;
+    --button-q1-goal-color: #AB5DE6;
+    --button-recruiting-color: #2CC6AB;
+    --button-mobile-color: #FF9B00;
+    --button-website-color: #EC4A9D;
+    --button-sales-color: #A3D116;
+    --flag-false-color: #FF3535;
+    --flag-true-color: #30C7AD;
+}
+
+
+/*********************
+ Body 
+**********************/
+
+body{
+    background-color: var(--bg-body-color);
+}
+
+/************ 
+Header 
+************/
+
+#site-header{
+    background-color: var(--global-color);
+}
+
+.logo{
+    height: 5rem;
+    vertical-align: middle;
+}
+
+#main-title{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.5rem;
+}
