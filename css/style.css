@@ -160,9 +160,19 @@ body{
     background-color: var(--button-recruiting-color);
 }
 
-.mobile{
+.mobile {
     width: 4rem;
     background-color: var(--button-mobile-color);
+}
+
+.website {
+    width: 4rem;
+    background-color: var(--button-website-color);
+}
+
+.sales{
+    width: 3.5rem;
+    background-color: var(--button-sales-color);
 }
 
 /************ /#Site-Main ************/
