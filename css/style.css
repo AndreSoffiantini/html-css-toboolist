@@ -55,6 +55,14 @@ body{
 
 /**** Container ****/
 
+.container{
+    background-color: var(--global-color);
+    width: 62rem;
+    height: 35rem;
+    margin: 2.5rem auto;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+}
 
 /* Container-header */
 
