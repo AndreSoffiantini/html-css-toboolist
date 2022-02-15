@@ -107,12 +107,12 @@ body{
     margin: 2rem 0;
 }
 
-.triangle{
-    font-size: 0.75rem;
-}
-
 .section-title{
     margin-bottom: 0.5rem;
+    color: var(--title-section-color);
+}
+.triangle{
+    font-size: 0.75rem;
 }
 
 .circle-checkmark {
@@ -184,5 +184,10 @@ body{
 
 
 /************ #Site-Footer ************/
+
+#site-footer {
+    text-align: center;
+    font-size: 0.75rem;
+}
 
 /************ #/Site-Footer ************/
