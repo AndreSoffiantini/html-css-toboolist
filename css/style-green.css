@@ -20,6 +20,8 @@
     --button-sales-color: #A3D116;
     --flag-false-color: #FF3535;
     --flag-true-color: #30C7AD;
+
+    --line-height: 41.58px;
 }
 
 
@@ -142,7 +144,7 @@ body{
 }
 
 .tagless {
-    line-height: 41.58px;
+    line-height: var(--line-height);
 }
 
 .editorial {
