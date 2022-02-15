@@ -58,7 +58,7 @@ body{
 .container{
     background-color: var(--global-color);
     width: 62rem;
-    height: 35rem;
+    height: 42rem;
     margin: 2.5rem auto;
     border-radius: 0.5rem;
     padding: 1rem 3rem;
@@ -143,6 +143,10 @@ body{
     font-size: 0.7rem;
     padding: 0.4rem;
     margin: 0.4rem;
+}
+
+.tagless {
+    line-height: 41.58px;
 }
 
 .editorial {
