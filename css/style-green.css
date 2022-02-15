@@ -101,6 +101,10 @@ body{
 
 /* Container-main */
 
+.container-main{
+    text-align: center;
+}
+
 .container-main-section{
     margin: 2rem 0;
 }
